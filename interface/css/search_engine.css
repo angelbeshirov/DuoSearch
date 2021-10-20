@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gradient {
+    background-image: linear-gradient(#f5f7fa, #c3cfe2);
+}
+
+.table-container {
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+    margin: auto;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+table {
+    position: relative;
+    overflow: visible;
+}
+
+table td,
+table th {
+    padding-left: 8px;
+}
+
+table thead tr {
+    height: 60px;
+    background: #36304a;
+}
+
+table tbody tr {
+    height: 50px;
+}
+
+table tbody tr:last-child {
+    border: 0;
+}
+
+table td,
+table th {
+    text-align: left;
+}
+
+table td.l,
+table th.l {
+    text-align: right;
+}
+
+table td.c,
+table th.c {
+    text-align: center;
+}
+
+table td.r,
+table th.r {
+    text-align: center;
+}
+
+.table-head th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+tbody tr {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+tbody .column1:hover {
+    color: #555555;
+    background-color: #9c9b9b;
+}
+.column1 {
+    border: 1px solid black;
+    white-space: normal;
+}
+
+.button {
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;
+    /* font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif; */
+    font-weight: 700;
+    padding: 19px 39px 18px;
+    font-size: 18px;
+}
+
+
+/* buttons */
+.header {
+    margin-top: 50px;
+}
+
+.selected-file-wrapper {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#selected-file {
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+}
+
+.non-visible {
+    display: none;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 40%;
+    background: #f1f1f1;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+  
+  /* Style the submit button */
+form.search button {
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+  
+form.search button:hover {
+   background: #0b7dda;
+}
+  
+ /* Clear floats */
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search_box {
+      width: 40%;
+}
+
+#pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    /* changed */
+    width: 65%;
+}
+
+.pagination {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BulSearch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/search_engine.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/navigation.css">
+	<link rel="shortcut icon" href="#">
+
+	<script type="text/javascript" src="js/search_engine.js" defer></script>
+	<script type="text/javascript" src="js/elasticsearch.js" defer></script>
+	<script type="text/javascript" src="js/util.js" defer></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body id="gradient">
+	<div class="navbar">
+		<div class="dropdown">
+		<button class="dropbtn">Вид експортиране
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a id="export-excel-btn" href="#">Експортиране към Excel таблица</a>
+			<a id="export-pdf-btn" href="#">Експортиране към PDF документ</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Вид търсене
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a id="ordinary-search" href="#">Обикновено търсене</a>
+			<a id="advanced-search" href="#">Разширено търсене</a>
+		</div>
+	</div>
+	<a id="selected-search-type">Избрано търсене: Обикновено търсене</a>
+	</div>
+	<div id="search_box">
+	<form class="search">
+		<input id="search-input" type="text" placeholder="Търси..." name="search">
+		<button id="search-btn" type="button"><i class="fa fa-search"></i></button>
+	</form>
+	</div>
+</div>
+	<section>
+		<div id="files-container" class="non-visible">
+				<div class="table-container">
+					<table id="main-table">
+						<thead>
+							<tr class="table-head">
+								<th class="column1">Резултати от търсенето</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div id="pages" class="pagination">
+				  </div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

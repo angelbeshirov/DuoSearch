@@ -1,5 +1,5 @@
 # DuoSearch
-A novel search engine for historical newspapers utilizing ElasticSearch and machine learning methods.
+A novel search engine for historical newspapers utilizing ElasticSearch and machine learning methods. Code for the paper https://arxiv.org/abs/2305.19392
 
 ### Purpose
 The purpose of this research is to build a proof of concept search engine which addresses the two issues: mistakes in the OCR and orthographic variety within language reforms in Bulgarian from 1850s till 1945.

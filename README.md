@@ -11,5 +11,8 @@ This is a PoC version and can be used for collections of digitised historical do
 This research would be useful for anyone who is interested in search tools in collections of historical documents/newspapaers containing errors and/or linguistic variance. The target user of the engine is a library in Bulgaria, but can be adapted and used by external users as well.
 
 
-## Architecture
+### Architecture
 ![Architecture](/misc/architecture.png)
+
+### Citation
+Beshirov, A., Hadzhieva, S., Dobreva, M., & Koychev, I. (2022). DuoSearch: A Novel Search Engine for Bulgarian Historical Documents. Proceedings of the European Conference on Information Retrieval. https://doi.org/10.1007/978-3-030-99739-7_31

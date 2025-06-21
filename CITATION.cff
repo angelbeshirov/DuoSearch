@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper:"
+title: "DuoSearch: A Novel Search Engine for Bulgarian Historical Documents"
+authors:
+  - family-names: Beshirov
+    given-names: Angel
+    orcid: https://orcid.org/0000-0002-0684-2730
+  - family-names: Hadzhieva
+    given-names: Suzan
+    orcid: https://orcid.org/0000-0002-1480-1437
+  - family-names: Dobreva
+    given-names: Milena
+    orcid: https://orcid.org/0000-0002-2579-7541
+  - family-names: Koychev
+    given-names: Ivan
+    orcid: https://orcid.org/0000-0003-3919-030X
+date-released: 2022-04-05
+doi: 10.1007/978-3-030-99739-7_31
+preferred-citation:
+  type: article
+  title: "DuoSearch: A Novel Search Engine for Bulgarian Historical Documents"
+  authors:
+    - family-names: Beshirov
+      given-names: Angel
+    - family-names: Hadzhieva
+      given-names: Suzen
+    - family-names: Dobreva
+      given-names: Milena
+    - family-names: Koychev
+      given-names: Ivan
+  journal: "Proceedings of the European Conference on Information Retrieval"
+  year: 2022
+  doi: 10.1007/978-3-030-99739-7_31
